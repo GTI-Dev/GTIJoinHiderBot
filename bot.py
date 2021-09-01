@@ -20,7 +20,7 @@ def send_welcome(message):
         InlineKeyboardButton("MyFather", url="https://t.me/MilesTM"))
     markup.add(
         InlineKeyboardButton(
-            "Our YT Channel", url="https://www.youtube.com/c/Gettechinfo"),
+            "Our YT Channel", url="https://www.youtube.com/c/Gettechinfo?sub_confirmation=1"),
         InlineKeyboardButton("Support", url="https://t.me/GettechinfoGroup"))
 
     bot.send_message(chat_id=message.chat.id, text=u' 😌 Hi! ' + message.from_user.first_name +

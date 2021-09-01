@@ -24,7 +24,7 @@ def send_welcome(message):
         InlineKeyboardButton("🙄 Support", url="https://t.me/GettechinfoGroup"))
 
     bot.send_message(chat_id=message.chat.id, text=u' 😌 Hi! ' + message.from_user.first_name +
-                     '\n\n I am your trusty GroupSilencer Bot! \n\n🥰Thanks for Choosing me!\n\nTo use me, make me an admin and I will be able to delete all the pesky notification when a member joins or leaves the group! \n\n እኔን ለመጠቀም አስተዳዳሪ አድርገኝ እና አንድ አባል ከቡድኑ ሲቀላቀል ወይም ሲወጣ ሁሉንም ማስታወቂያዎች መሰረዝ እችላለሁ! \n\n😋 Please add me to your groups\n እባክዎን ወደ ቡድኖችዎ  ያስገቡኝ  \n', reply_markup=markup)
+                     '\n\n I am your trusty GroupSilencer Bot! \n\n🥰Thanks for Choosing me!\n\nTo use me, make me an admin and I will be able to delete all the pesky notification when a member joins or leaves the group! \n\n እኔን ለመጠቀም አስተዳዳሪ አድርገኝ እና አንድ አባል ከቡድኑ ሲቀላቀል ወይም ሲወጣ ሁሉንም ማስታወቂያዎች መሰረዝ እችላለሁ! \n\n😋 Please add me to your groups\n እባክዎን ወደ ቡድኖችዎ  ያስገቡኝ  \n\n', reply_markup=markup)
 
 
 @bot.message_handler(content_types=['new_chat_members'])

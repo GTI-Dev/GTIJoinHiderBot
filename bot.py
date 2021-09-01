@@ -16,7 +16,7 @@ def send_welcome(message):
     markup.row_width = 2
     markup.add(
         InlineKeyboardButton(
-            "😉 Add Your Group", url="https://t.me/testmaybo2bot?startgroup=inpvbtn"),
+            "😉 Add Your Group", url="https://t.me/JoinHiderGTIBot?startgroup=inpvbtn"),
         InlineKeyboardButton("😒 MyFather", url="https://t.me/MilesTM"))
     markup.add(
         InlineKeyboardButton(
